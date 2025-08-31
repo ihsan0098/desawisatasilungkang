@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Paket Alam & Air: Lubuak Lugha",
+    "desc": "Eksplorasi pemandian alami + kuliner ringan + kunjungan UMKM lokal.",
+    "image": "../assets/img/paket-air.jpg",
+    "duration": "Half-day",
+    "price": "Rp75.000"
+  },
+  {
+    "title": "Camping Guak Kumbuah + Budaya",
+    "desc": "Camping, api unggun, workshop songket & dokumentasi foto.",
+    "image": "../assets/img/paket-camping.jpg",
+    "duration": "2D1N",
+    "price": "Rp350.000"
+  },
+  {
+    "title": "Eksplor Goa & Batu Runciang",
+    "desc": "Goa Kelambu, edukasi geologi Batu Runciang, dan kuliner khas.",
+    "image": "../assets/img/paket-goa.jpg",
+    "duration": "Full-day",
+    "price": "Rp150.000"
+  }
+]

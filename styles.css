@@ -1,0 +1,9 @@
+
+/* Custom minimal styles on top of Tailwind */
+.btn-primary { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium bg-emerald-700 text-white hover:bg-emerald-800 shadow; }
+.btn-outline { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium border border-emerald-700 text-emerald-700 hover:bg-emerald-50; }
+.input { @apply border rounded-xl px-3 py-2 w-full; }
+.card { @apply overflow-hidden rounded-2xl border shadow-sm bg-white; }
+.card img { @apply w-full h-44 object-cover; }
+.card .body { @apply p-4; }
+.prose { @apply prose-headings:scroll-mt-16; }

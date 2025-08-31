@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Pemandian Lubuak Lugha",
+    "desc": "Pemandian alami dengan aliran air jernih dan suasana sejuk.",
+    "image": "../assets/img/lubuak-lugha.jpg",
+    "facilities": [
+      "toilet",
+      "parkir"
+    ],
+    "distance": "±10–15 menit dari pusat desa"
+  },
+  {
+    "name": "Camping Ground Guak Kumbuah",
+    "desc": "Area perkemahan ramah keluarga dengan panorama hutan dan bukit.",
+    "image": "../assets/img/guak-kumbuah.jpg",
+    "facilities": [
+      "parkir",
+      "mushola"
+    ],
+    "distance": "±20–30 menit dari pusat desa"
+  },
+  {
+    "name": "Goa Kelambu",
+    "desc": "Goa dengan formasi batu menarik, cocok untuk jelajah ringan.",
+    "image": "../assets/img/goa-kelambu.jpg",
+    "facilities": [
+      "parkir"
+    ],
+    "distance": "±25 menit dari pusat desa"
+  },
+  {
+    "name": "Ngarai Kuniang",
+    "desc": "Lanskap ngarai yang fotogenik dengan tebing-tebing batu.",
+    "image": "../assets/img/ngarai-kuniang.jpg",
+    "facilities": [
+      "parkir"
+    ],
+    "distance": "±30 menit dari pusat desa"
+  },
+  {
+    "name": "Batu Runciang",
+    "desc": "Ikon batu runcing khas Silungkang, cocok untuk foto dan edukasi geologi.",
+    "image": "../assets/img/batu-runciang.jpg",
+    "facilities": [
+      "parkir"
+    ],
+    "distance": "±15–20 menit dari pusat desa"
+  },
+  {
+    "name": "Puncak Microwave Silungkang",
+    "desc": "Titik puncak dengan panorama luas, ideal untuk sunrise/sunset.",
+    "image": "../assets/img/puncak-microwave.jpg",
+    "facilities": [
+      "parkir"
+    ],
+    "distance": "±40 menit dari pusat desa"
+  }
+]

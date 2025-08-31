@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Songket Silungkang Oso",
+    "category": "Kerajinan",
+    "contact": "IG: @songket_oso",
+    "image": "../assets/img/umkm-songket.jpg"
+  },
+  {
+    "name": "Kopi Bukik Oso",
+    "category": "Kuliner",
+    "contact": "WA: 08xxxxxxxxxx",
+    "image": "../assets/img/umkm-kopi.jpg"
+  },
+  {
+    "name": "Camilan Karak Kaliang",
+    "category": "Kuliner",
+    "contact": "IG: @karakkaliang_oso",
+    "image": "../assets/img/umkm-camilan.jpg"
+  }
+]
