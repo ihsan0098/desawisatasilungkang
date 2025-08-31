@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desa Wisata Silungkang Oso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body class="min-h-screen flex flex-col bg-white text-gray-900">
+
+<header class="w-full border-b">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="./index.html" class="text-xl font-semibold flex items-center gap-2">
+      <img src="./assets/img/logo.svg" alt="Logo" class="w-8 h-8">
+      Desa Wisata Silungkang Oso
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a class="hover:underline" href="./pages/profil-desa.html">Profil Desa</a>
+      <a class="hover:underline" href="./pages/destinasi.html">Destinasi</a>
+      <a class="hover:underline" href="./pages/budaya.html">Budaya</a>
+      <a class="hover:underline" href="./pages/umkm.html">UMKM</a>
+      <a class="hover:underline" href="./pages/paket-wisata.html">Paket Wisata</a>
+      <a class="hover:underline" href="./pages/galeri.html">Galeri</a>
+      <a class="hover:underline" href="./pages/kontak.html">Kontak</a>
+    </nav>
+    <button id="navToggle" class="md:hidden border rounded-lg px-3 py-2 text-sm">Menu</button>
+  </div>
+  <div id="mobileNav" class="md:hidden hidden border-t">
+    <div class="max-w-7xl mx-auto px-4 py-3 grid gap-2 text-sm">
+      <a class="hover:underline" href="./pages/profil-desa.html">Profil Desa</a>
+      <a class="hover:underline" href="./pages/destinasi.html">Destinasi</a>
+      <a class="hover:underline" href="./pages/budaya.html">Budaya</a>
+      <a class="hover:underline" href="./pages/umkm.html">UMKM</a>
+      <a class="hover:underline" href="./pages/paket-wisata.html">Paket Wisata</a>
+      <a class="hover:underline" href="./pages/galeri.html">Galeri</a>
+      <a class="hover:underline" href="./pages/kontak.html">Kontak</a>
+    </div>
+  </div>
+</header>
+
+    <main class="flex-1">
+      <section class="relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight">Selamat datang di Desa Wisata <span class="text-emerald-700">Silungkang Oso</span></h1>
+            <p class="mt-4 text-lg text-gray-700">
+              Terletak di Kecamatan Silungkang, Kota Sawahlunto (±6,57 km²), ketinggian 267–710 mdpl, suhu rata-rata sekitar 22°C. 
+              ±78 km dari Kota Padang, ±2 jam perjalanan darat.
+            </p>
+            <div class="mt-6 flex gap-3">
+              <a href="./pages/destinasi.html" class="btn-primary">Jelajahi Destinasi</a>
+              <a href="./pages/paket-wisata.html" class="btn-outline">Paket Tematik</a>
+            </div>
+          </div>
+          <div class="relative rounded-2xl overflow-hidden shadow-lg ring-1 ring-black/5">
+            <img src="./assets/img/hero.jpg" alt="Panorama Silungkang Oso" class="w-full h-80 object-cover">
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-7xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-semibold mb-6">Destinasi Unggulan</h2>
+        <div id="destinasiGridHome" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        <div class="mt-6 text-right">
+          <a href="./pages/destinasi.html" class="inline-block underline">Lihat semua destinasi →</a>
+        </div>
+      </section>
+    </main>
+
+<footer class="w-full border-t mt-16">
+  <div class="max-w-7xl mx-auto px-4 py-8 text-sm text-center">
+    © <span id="year"></span> Desa Wisata Silungkang Oso — Kota Sawahlunto, Sumatera Barat.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+  </body>
+</html>
